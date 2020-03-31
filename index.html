@@ -1,0 +1,87 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="practice.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+
+
+    <title>Hello, world!</title>
+  </head>
+  
+  
+  <body>	
+	
+<!--	
+<div id="buttonDiv">
+	<button onclick="alert('Hello World')">Click Me</button>
+</div>
+-->
+
+
+<div id="wrapper">
+	<!--SideBar-->
+	<div id="sidebar-wrapper">
+		<ul class="sidebar-nav">
+			<li><a href="#"> Click Me</a></li>
+			<li><a href="#"> Or Me</a></li>
+			<li><a href="#"> But Never Me</a></li>
+		</ul>
+	</div>
+
+		<!--Page Content-->
+	<div id="page-content-wrapper">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+					<a href="#" class="btn btn-secondary toggle-button" id="menu-toggle">Show Menu</a>
+					<h1>It was all a dream</h1>
+					<p>I used to read Word Up! magazine
+						Salt-n-Pepa and Heavy D up in the limousine
+						Hangin' pictures on my wall
+						Every Saturday Rap Attack, Mr. Magic, Marley Marl
+						I let my tape rock 'til my tape popped
+						Smokin' weed in Bambu, sippin' on Private Stock
+						Way back, when I had the red and black lumberjack
+						With the hat to match
+						Remember Rappin' Duke? Duh-ha, duh-ha
+						You never thought that hip-hop would take it this far
+						Now I'm in the limelight 'cause I rhyme tight
+						Time to get paid, blow up like the World Trade
+						Born sinner, the opposite of a winner
+						Remember when I used to eat sardines for dinner
+						Peace to Ron G, Brucie B, Kid Capri
+						Funkmaster Flex, Lovebug Starski
+						I'm blowin' up like you thought I would
+						Call the crib, same number, same hood
+						It's all good (It's all good)
+						And if you don't know, now you know,
+					</p>	
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+  <!-- Menu Toggle Script -->
+
+	<script>
+		$("#menu-toggle").click( function(e){
+			e.preventDefault(); //prevents default browser action of going to a link
+			$("#wrapper").toggleClass("menuDisplayed");
+			$(this).text($(this).text() == 'Show Menu' ? 'Hide Menu' : 'Show Menu');
+		});
+	</script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
